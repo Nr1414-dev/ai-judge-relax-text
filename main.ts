@@ -35,13 +35,13 @@ import { join } from 'node:path';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 const TEXT = [
-  'Between one thing and the next, the tide turns, and the harbour holds its breath between one pull and the next.',
+  'Between one thing and the next, the tide turns, and the harbour holds its breath.',
   '',
-  'The boats sit low on the slack water, their ropes slack against the quay, their masts swaying only when the water remembers to move. A gull folds its wings on a piling, and stays.',
+  'The boats sit low on the slack water, their ropes loose against the quay, their masts swaying only when the water remembers to move. A gull folds its wings on a piling, and stays.',
   '',
   'Along the pier a lamp comes on, warm against the blue of evening, and the water takes the light and keeps it, in long lines that do not hurry anywhere.',
   '',
-  'The nets hang drying on the rail. Salt dries white on the wood. The day\'s work is tied up.',
+  'The nets hang drying on the rail. Salt turns white on the wood. The day\'s work is tied up.',
   '',
   'The lamp burns on, and the water keeps the light.',
 ].join('\n');
